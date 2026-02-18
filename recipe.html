@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detailed recipe instructions with ingredients, cooking steps, and nutritional information.">
+    <title>Recipe Details - World Famous Recipes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>World Famous Recipes</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#recipes">Recipes</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Recipe Detail Section -->
+    <section class="recipe-detail">
+        <div class="container">
+            <a href="index.html" class="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+
+            <div class="recipe-header">
+                <h1 id="recipe-title">Recipe Title</h1>
+                <div class="recipe-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>4.5/5</span>
+                </div>
+            </div>
+
+            <div class="recipe-image-large">
+                <img id="recipe-main-image" src="" alt="Recipe Image">
+            </div>
+
+            <div class="recipe-overview">
+                <div class="overview-item">
+                    <i class="far fa-clock"></i>
+                    <div>
+                        <strong>Prep Time</strong>
+                        <p id="prep-time">--</p>
+                    </div>
+                </div>
+                <div class="overview-item">
+                    <i class="fas fa-fire"></i>
+                    <div>
+                        <strong>Cook Time</strong>
+                        <p id="cook-time">--</p>
+                    </div>
+                </div>
+                <div class="overview-item">
+                    <i class="fas fa-users"></i>
+                    <div>
+                        <strong>Servings</strong>
+                        <p id="servings">--</p>
+                    </div>
+                </div>
+                <div class="overview-item">
+                    <i class="fas fa-signal"></i>
+                    <div>
+                        <strong>Difficulty</strong>
+                        <p id="difficulty">--</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-content-grid">
+                <!-- Ingredients Section -->
+                <div class="ingredients-section">
+                    <h2><i class="fas fa-shopping-basket"></i> Ingredients</h2>
+                    <ul id="ingredients-list">
+                        <!-- Ingredients will be loaded dynamically -->
+                    </ul>
+                </div>
+
+                <!-- Instructions Section -->
+                <div class="instructions-section">
+                    <h2><i class="fas fa-list-ol"></i> Cooking Instructions</h2>
+                    <ol id="instructions-list">
+                        <!-- Instructions will be loaded dynamically -->
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Cooking Time Table -->
+            <div class="info-tables">
+                <div class="table-container">
+                    <h2><i class="far fa-clock"></i> Cooking Time Breakdown</h2>
+                    <table id="time-table">
+                        <thead>
+                            <tr>
+                                <th>Stage</th>
+                                <th>Time Required</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Time data will be loaded dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Nutrition Information Table -->
+                <div class="table-container">
+                    <h2><i class="fas fa-heartbeat"></i> Nutrition Information</h2>
+                    <p class="nutrition-note">Per serving</p>
+                    <table id="nutrition-table">
+                        <thead>
+                            <tr>
+                                <th>Nutrient</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Nutrition data will be loaded dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Tips Section -->
+            <div class="tips-section">
+                <h2><i class="fas fa-lightbulb"></i> Chef's Tips</h2>
+                <ul id="tips-list">
+                    <!-- Tips will be loaded dynamically -->
+                </ul>
+            </div>
+
+            <!-- Back Button -->
+            <div class="button-container">
+                <a href="index.html" class="btn-primary">
+                    <i class="fas fa-arrow-left"></i> Back to All Recipes
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>World Famous Recipes</h3>
+                    <p>Your gateway to delicious dishes from around the world. Cook with confidence!</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#recipes">Recipes</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 World Famous Recipes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/recipes-data.js"></script>
+    <script src="js/recipe-detail.js"></script>
+</body>
+</html>
